@@ -25,4 +25,6 @@ jobs:
         with:
           python-version: 3.7
       - run: |
+          pip install -e '.[dev]'
+      - run: |
           pytest --show-lineno --verbose
