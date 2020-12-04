@@ -10,6 +10,7 @@ setup(
     entry_points={"pytest11": ["lineno = pytest_lineno"]},
     author="harupy",
     description="A pytest plugin to show the line numbers of test functions",
+    long_description_content_type="text/markdown",
     long_description=open("README.md").read(),
     license="MIT",
     python_requires=">=3.5",
