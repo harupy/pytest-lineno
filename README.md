@@ -5,7 +5,11 @@ A pytest plugin to show the line numbers of test functions.
 ## Installation
 
 ```sh
+# From PyPI
 pip install pytest-lineo
+
+# From GitHub
+pip install git+https://github.com/harupy/pytest-lineno.git
 ```
 
 ## Usage
