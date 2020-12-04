@@ -6,7 +6,7 @@ setup(
     version="0.0.1",
     packages=find_packages(exclude=["tests", "tests.*"]),
     install_requires=["pytest"],
-    extra_requires={"dev": ["black", "flake8", "wheel"]},
+    extras_require={"dev": ["black", "flake8", "wheel"]},
     entry_points={"pytest11": ["lineno = pytest_lineno"]},
     author="harupy",
     description="A pytest plugin to show the line numbers of test functions",
