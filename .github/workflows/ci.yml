@@ -15,7 +15,7 @@ jobs:
       - run: |
           flake8 .
       - run: |
-          black
+          black . --check
 
   test:
     runs-on: ubuntu-latest
