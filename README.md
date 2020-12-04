@@ -22,4 +22,5 @@ tests/test_file.py:5::TestClass::test_method PASSED  [100%]
                 # ^^^
                 # By clicking `tests/test_file.py:5`,
                 # you can jump to `TestClass.test_method`
+                # (if your code editor recognizes this format as a link)
 ```
