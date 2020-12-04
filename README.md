@@ -1,6 +1,6 @@
 # pytest-lineno
 
-A pytest pluging to show the line numbers of test functions.
+A pytest plugin to show the line numbers of test functions.
 
 ## Installation
 
